@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="photo_gallery.css">
+	<script src = "photo_gallery.js"></script>
+</head>
+<body>
+	
+	<h1 id="Title" alt="Title">
+        Photo Gallery
+    </h1>
+
+    <div id="display">
+        <div id="photoTitle">
+            Photo Title
+        </div>
+        <div id="image">
+            Hover over an image to change the display!
+        </div>
+    </div>
+	
+    <div class="image-gallery">
+        <button id="left">
+            <
+        </button>
+
+        <div id="image-collection">
+            <img class = "preview" alt = "The Scream" src = "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg" onmouseover = "upDate(this)" onmouseout="undo(this)">
+    
+            <img class = "preview" alt = "Great Wave of Kanagawa" src = "https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg" onmouseover = "upDate(this)" onmouseout="undo(this)">
+    
+            <img class = "preview" alt = "The Art of Painting" src = "https://upload.wikimedia.org/wikipedia/commons/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg" onmouseover = "upDate(this)" onmouseout="undo(this)">
+    
+            <img class = "preview" alt = "Starry Night Over the Rhone" src = "https://upload.wikimedia.org/wikipedia/commons/9/94/Starry_Night_Over_the_Rhone.jpg" onmouseover="upDate(this)" onmouseout="undo(this)">
+        </div>
+
+        <button id="right">
+            >
+        </button>
+
+    </div>
+    
+
+</body>
+</html>
